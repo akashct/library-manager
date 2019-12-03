@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { TextValidator, ValidatorForm } from 'react-material-ui-form-validator';
 import SaveButton from './Buttons/SaveButton';
-// import { Link } from "react-router-dom";
 
 class IssueForm extends Component {
     constructor(props) {
@@ -76,7 +75,6 @@ class IssueForm extends Component {
         const { issue_details } = this.state;
         return (
             <div>
-                {/* <Link className="backArrow" to="/" /> */}
                 <ValidatorForm
                     ref="form">
 

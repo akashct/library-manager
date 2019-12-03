@@ -39,7 +39,7 @@ class Books extends React.Component {
     }
 
     editBookHandler = (property, info) => {
-        let { book_id, title, author, total_num_of_books } = info.find((element) => element.book_id === property.row.book_id);
+        let { book_id, title, author, total_num_of_books } = info.find((element) => element.book_id == property.row.book_id);
         this.setState({
             formOpen: true,
             datarow: {
