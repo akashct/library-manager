@@ -49,7 +49,7 @@ class Transactions extends React.Component {
               color="#E86F68"
               showSpinner={false}
             />
-            <Link className="backArrow" to="/" />
+            <Link className="backArrow" to="/"/>
             <ReactTable
               data={this.state.data}
               columns={[

@@ -97,7 +97,7 @@ class Readers extends React.Component {
               />
             ) : (
               <div>
-                <Link className="backArrow" to="/" />
+                <Link className="backArrow" to="/"/>
                 <button onClick={this.handleForm}>Add Reader</button>
                 <ReactTable
                   data={this.state.data}
