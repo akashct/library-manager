@@ -6,7 +6,6 @@ import ReaderForm from './ReaderForm'
 import EditIcon from '@material-ui/icons/Edit'
 import Loading from 'react-loading-bar'
 import 'react-loading-bar/dist/index.css'
-import { Link } from "react-router-dom";
 
 class Readers extends React.Component {
     constructor() {
@@ -97,7 +96,6 @@ class Readers extends React.Component {
               />
             ) : (
               <div>
-                <Link className="backArrow" to="/"/>
                 <button onClick={this.handleForm}>Add Reader</button>
                 <ReactTable
                   data={this.state.data}
