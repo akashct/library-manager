@@ -7,13 +7,10 @@ const config = {
     "aws_user_pools_id": "us-east-2_r43MpRAEo",
     "aws_user_pools_web_client_id": "hnod4vkf1ak24cecvdqt4ret2",
     "oauth": {},
-    "aws_content_delivery_bucket": "library-manager-20191201115113-hostingbucket-prodinst",
-    "aws_content_delivery_bucket_region": "us-east-2",
-    "aws_content_delivery_url": "https://d202utal0u906z.cloudfront.net",
     "REGION": "us-east-2",
     "USER_POOL_ID": "us-east-2_SF2DCPO5Y",
     "APP_CLIENT_ID": "617jkna9pqeg8rmgtg9uv4e6j4",
-    "IDENTITY_POOL_ID": "",
+    "IDENTITY_POOL_ID": "",     
     "UserPoolId": "us-east-2_SF2DCPO5Y",
     "ClientId": "617jkna9pqeg8rmgtg9uv4e6j4"
 };
