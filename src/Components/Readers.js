@@ -42,7 +42,7 @@ class Readers extends React.Component {
     }
 
     editReaderHandler = (property, info) => {
-        let { reader_id, name, email, member_since } = info.find((element) => element.reader_id == property.row.reader_id);
+        let { reader_id, name, email, member_since } = info.find((element) => element.reader_id === property.row.reader_id);
         this.setState({
             formOpen: true,
             datarow: {
