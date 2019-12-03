@@ -4,6 +4,7 @@ import "react-table/react-table.css"
 import "./ReactTable.css"
 import Loading from 'react-loading-bar'
 import 'react-loading-bar/dist/index.css'
+import { Link } from "react-router-dom";
 
 class Transactions extends React.Component {
     constructor() {
@@ -48,6 +49,7 @@ class Transactions extends React.Component {
               color="#E86F68"
               showSpinner={false}
             />
+            <Link className="backArrow" to="/" />
             <ReactTable
               data={this.state.data}
               columns={[
